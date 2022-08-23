@@ -7,7 +7,7 @@ This projects aims in detection of video deepfakes using deep learning technique
 
 EfficientNetB0
 | Dataset | No of videos | Accuracy |
-|------------|--------------|--------------|----------|
+|------------|--------------|--------------|
 |Celeb-DF | 1068 | 82.9|
 |Face-forensics | 1989 | 89.19|
 |DFDC | 3293| 80.1|
@@ -16,7 +16,7 @@ EfficientNetB0
 
 EfficientNetB1
 | Dataset | No of videos | Accuracy |
-|------------|--------------|--------------|----------|
+|------------|--------------|--------------|
 |Celeb-DF | 1068 | 85.89|
 |Face-forensics | 1989 | 93.46|
 |DFDC | 3293| 82.16|
