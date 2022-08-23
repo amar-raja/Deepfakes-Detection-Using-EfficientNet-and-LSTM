@@ -5,11 +5,21 @@ This projects aims in detection of video deepfakes using deep learning technique
 
 ## 2. Our Results
 
-| Model Name | No of videos | No of Frames | Accuracy |
+EfficientNetB0
+| Dataset | No of videos | Accuracy |
 |------------|--------------|--------------|----------|
-|model_84_acc_10_frames_final_data.pt |6000 |10 |84.21461|
-|model_87_acc_20_frames_final_data.pt | 6000 |20 |87.79160|
-|model_89_acc_40_frames_final_data.pt | 6000| 40 |89.34681|
-|model_90_acc_60_frames_final_data.pt | 6000| 60 |90.59097 |
-|model_91_acc_80_frames_final_data.pt | 6000 | 80 | 91.49818 |
-|model_93_acc_100_frames_final_data.pt| 6000 | 100 | 93.58794|
+|Celeb-DF | 1068 | 82.9|
+|Face-forensics | 1989 | 89.19|
+|DFDC | 3293| 80.1|
+|Celeb and FF | 3155| 82.05 |
+|All | 6450 | 79.89 |
+
+EfficientNetB1
+| Dataset | No of videos | Accuracy |
+|------------|--------------|--------------|----------|
+|Celeb-DF | 1068 | 85.89|
+|Face-forensics | 1989 | 93.46|
+|DFDC | 3293| 82.16|
+|Celeb and FF | 3155| 85.4 |
+|All | 6450 | 86.32 |
+
